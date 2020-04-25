@@ -80,7 +80,7 @@ elseif s:configuration.style ==# 'andromeda'
 elseif s:configuration.style ==# 'atlantis'
   let s:palette = {
         \ 'black':      ['#181a1c',   '237',  'DarkGrey'],
-        \ 'bg0':        ['#2a2f38',   '235',  'Black'],
+        \ 'bg0':        ['None',   'None',  'None'],
         \ 'bg1':        ['#303541',   '236',  'DarkGrey'],
         \ 'bg2':        ['#373c4b',   '236',  'DarkGrey'],
         \ 'bg3':        ['#3d4455',   '237',  'DarkGrey'],
@@ -252,8 +252,8 @@ call s:HL('ErrorMsg', s:palette.red, s:palette.none, 'bold,underline')
 call s:HL('WarningMsg', s:palette.yellow, s:palette.none, 'bold')
 call s:HL('ModeMsg', s:palette.fg, s:palette.none, 'bold')
 call s:HL('MoreMsg', s:palette.blue, s:palette.none, 'bold')
-call s:HL('IncSearch', s:palette.bg0, s:palette.bg_red)
-call s:HL('Search', s:palette.bg0, s:palette.bg_green)
+call s:HL('IncSearch', s:palette.bg_red, s:palette.bg0)
+call s:HL('Search', s:palette.bg_red, s:palette.bg0)
 call s:HL('MatchParen', s:palette.none, s:palette.bg4)
 call s:HL('NonText', s:palette.bg4, s:palette.none)
 call s:HL('Whitespace', s:palette.bg4, s:palette.none)
