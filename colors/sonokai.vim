@@ -80,7 +80,7 @@ elseif s:configuration.style ==# 'andromeda'
 elseif s:configuration.style ==# 'atlantis'
   let s:palette = {
         \ 'black':      ['#181a1c',   '237',  'DarkGrey'],
-        \ 'bg0':        ['None',   'None',  'None'],
+        \ 'bg0':        ['#2a2f38',   '235',  'Black'],
         \ 'bg1':        ['#303541',   '236',  'DarkGrey'],
         \ 'bg2':        ['#373c4b',   '236',  'DarkGrey'],
         \ 'bg3':        ['#3d4455',   '237',  'DarkGrey'],
